@@ -1,0 +1,26 @@
+.token-table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 40%;
+  }
+  
+  .token-table th,
+  .token-table td {
+    border: 1px solid #020202;
+    padding: 8px;
+  }
+  
+  .token-table th {
+    background-color: #dbd1d1;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .token-table tr:nth-child(even) {
+    background-color: #fdf8f8;
+  }
+  
+  .token-table tr:hover {
+    background-color: #05af0d;
+  }
+  
